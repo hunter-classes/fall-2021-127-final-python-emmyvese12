@@ -1,0 +1,88 @@
+* Fall 2021 - 127 - Final Exam - Python - in class
+
+* Last Name: 
+
+* First Name: 
+
+* GitHub username: 
+
+* Notes:
+
+* Instructions
+
+- When run, the program(s) for each question should print out a line
+  explaining what it's testing, call the required functions, and print
+  the output. There should be no keyboard input unless the question
+  explicitly asks for it.
+- Place any notes you want to tell me in this file under the *Notes:*
+  heading above.
+- You are to complete all questions.
+- The only sites you may use for reference are our text book
+  (https://runestone.academy/runestone/books/published/thinkcspy/index.html)
+  and the online python3
+  documentation at https://docs.python.org/3/. You may not look at
+  your own prior work on repl.it or anywhere else.
+- Your may not use Python functions or methods that defeat the purpose of the
+  question. For example, if there was a question that explicitly asked
+  you to sort a list of numbers (something I would not ask since we
+  haven't covered it), you would not be allowed to use the built in
+  sort() method. If you have any questions about this, please ask
+  during the exam.
+
+* Overall instructions:
+
+Create a single program named *anwers.py*. It should contain all the
+functions specified below. When you run the program, it should
+demonstrate that each function works by running them in order. It
+should print a header before each function that looks as follows:
+
+#+begin_example
+------------------- Question 1 ----------------
+some brief description of what the output should be
+#+end_example
+
+Followed by the output of your tests.
+
+* 1 - isIncreasing (20pts)
+
+Write a function named *isIncreasing* that takes a list of integers as
+a parameter. *isIncraasing* should return *True* if it continually
+increases. That is given a parameter list L, then L[0] < L[1] < L[2]
+etc. otherwise return *False*.
+
+ 
+
+* 2 - NumConvert (20pts)
+
+Write a function named *NumConvert*. It should take a list of single
+digit numbers and convert it to an integer and return it.
+
+For example NumConvert([3,5,1]) would return the number 351.
+
+Assume all items in the list are positive single digits.
+
+If you are totally stuck on this, DM me on Zulip and I will provide a
+hint but you won't be able to get full credit if you take the hint.
+
+* 3 - BinConvert (20pts)
+
+Write a function named *BinConvert* that takes a string representing a
+binary number and returns an integer with that number converted to
+decimal.
+
+
+Examples:
+
+| Call               | Returns |
+|--------------------+---------|
+| BinConvert("1")    |       1 |
+| BinConvert("10")   |       2 |
+| BinConvert("11")   |       3 |
+| BinConvert("100")  |       4 |
+| BinConvert("101")  |       5 |
+| BinConvert("1011") |      11 |
+
+
+If you are totally stuck on this, DM me on Zulip and I will provide a
+hint but you won't be able to get full credit if you take the hint.
+
